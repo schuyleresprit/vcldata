@@ -137,7 +137,7 @@ module.exports = function buildJekyll(callback, env) {
    browserSync.init({
      server: "./" + paths.build,
      socket: {
-         domain: "localhost:3000"
+         domain: "http://localhost:3000"
     }
    });
  });
