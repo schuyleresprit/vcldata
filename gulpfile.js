@@ -12,6 +12,8 @@ var gulp          = require('gulp'),
     runSequence   = require('run-sequence'),
     gutil         = require('gulp-util'),
     gulpAutoTask  = require('gulp-auto-task'),
+    sass          = require('gulp-sass'),
+    sourcemaps    = require('gulp-sourcemaps')
 
     /** Config */
     paths        = require('./package.json').paths;

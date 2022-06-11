@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta Content-Security-Policy: script-src 'strict-dynamic' 'sha256-27836af379b35d139159e06235f608c394392d4272a7324c80f6341508bdc3b1'>
 
 	<title>Visualizing Caribbean Literature</title>
 	<link rel='icon' type= image/create-icon href='assets/create_square.png' />
@@ -61,8 +62,6 @@
 			<div id='nav_padding'></div>
 		</div>
 	<div id='container'></div>
-	<div id="like_button_container"></div>
-
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <!--<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
@@ -70,5 +69,5 @@
 
     <! Load our React component. -->
     <!--<script src="like_button.js"></script>-->
-	<script type='text/javascript' src='js/visTestvcl.js'></script>
+	<script type='text/javascript' src='js/visTestvcl.js' Content-Security-Policy: script-src 'strict-dynamic' 'sha256-27836af379b35d139159e06235f608c394392d4272a7324c80f6341508bdc3b1'></script>
 </body>
